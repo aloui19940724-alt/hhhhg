@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bot-telegram",
+    "type": "bot",
+    "name": "بوت تليجرام",
+    "short": "بوت ذكي للتسويق والبيع التلقائي عبر تليجرام",
+    "price": "50 ر.س / شهر",
+    "price_number": 50,
+    "currency": "ر.س",
+    "long": "بوت تليجرام متقدم مع إدارة المبيعات التلقائية، إرسال رسائل مجدولة، إحصائيات شاملة ودعم الدفع.",
+    "features": [
+      "إدارة المبيعات التلقائية",
+      "إرسال رسائل مجدولة",
+      "إحصائيات شاملة",
+      "دعم الدفع"
+    ],
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=telegram",
+    "slug": "bot-telegram"
+  },
+  {
+    "id": "bot-discord",
+    "type": "bot",
+    "name": "بوت ديسكورد",
+    "short": "بوت متقدم لإدارة السيرفرات والمجتمعات",
+    "price": "40 ر.س / شهر",
+    "price_number": 40,
+    "currency": "ر.س",
+    "long": "بوت ديسكورد يحتوي على إدارة الأدوار، نظام مستويات، تصفية الرسائل ولوحة تحكم ويب سهلة الاستخدام.",
+    "features": [
+      "إدارة الأدوار والأعضاء",
+      "نظام المستويات",
+      "تصفية الرسائل",
+      "لوحة تحكم ويب"
+    ],
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=discord",
+    "slug": "bot-discord"
+  },
+  {
+    "id": "bot-x",
+    "type": "bot",
+    "name": "بوت إكس",
+    "short": "بوت ذكي لنشر ومراقبة وسائل التواصل",
+    "price": "60 ر.س / شهر",
+    "price_number": 60,
+    "currency": "ر.س",
+    "long": "بوت إكس لجدولة النشر، تحليل الأداء وإدارة التفاعلات لزيادة الوصول والمتابعين.",
+    "features": [
+      "جدولة النشر التلقائي",
+      "تحليل الأداء",
+      "جمع المتابعين",
+      "إدارة التفاعلات"
+    ],
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=x",
+    "slug": "bot-x"
+  },
+  {
+    "id": "bot-whatsapp",
+    "type": "bot",
+    "name": "بوت واتس",
+    "short": "بوت تفاعلي للتسويق والدعم عبر واتساب",
+    "price": "55 ر.س / شهر",
+    "price_number": 55,
+    "currency": "ر.س",
+    "long": "بوت واتس يقدم رسائل تلقائية، دعم عملاء 24/7، قوائم تفاعلية وإمكانية إرسال ملفات للعملاء.",
+    "features": [
+      "رسائل تلقائية",
+      "دعم العملاء 24/7",
+      "قوائم تفاعلية",
+      "إرسال الملفات"
+    ],
+    "image": "https://images.unsplash.com/photo-1523475496153-3d6cc5f1f6b4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=whatsapp",
+    "slug": "bot-whatsapp"
+  },
+  {
+    "id": "netflix",
+    "type": "subscription",
+    "name": "Netflix",
+    "short": "أفلام وسلاسل تلفزيونية بدون إعلانات",
+    "price": "35 ر.س / شهر",
+    "price_number": 35,
+    "currency": "ر.س",
+    "long": "اشتراك Netflix مع محتوى متجدد، جودة عالية وخيارات مشاهدة متعددة بدون إعلانات.",
+    "features": ["محتوى متجدد", "دقة عالية", "بلا إعلانات"],
+    "image": "https://images.unsplash.com/photo-1505682634904-d7c1de1b3b1f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=netflix",
+    "slug": "netflix"
+  },
+  {
+    "id": "spotify",
+    "type": "subscription",
+    "name": "Spotify",
+    "short": "ملايين الأغاني بدون إعلانات",
+    "price": "25 ر.س / شهر",
+    "price_number": 25,
+    "currency": "ر.س",
+    "long": "استمع إلى ملايين الأغاني بلا إعلانات، قوائم تشغيل ذكية وتنزيلات للاستماع دون اتصال.",
+    "features": ["بلا إعلانات", "قوائم تشغيل ذكية", "تحميلات للاستماع دون اتصال"],
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=spotify",
+    "slug": "spotify"
+  },
+  {
+    "id": "youtube-premium",
+    "type": "subscription",
+    "name": "YouTube Premium",
+    "short": "مشاهدة بدون إعلانات وتحميل الفيديوهات",
+    "price": "32 ر.س / شهر",
+    "price_number": 32,
+    "currency": "ر.س",
+    "long": "YouTube Premium لتجربة مشاهدة بدون إعلانات، تشغيل في الخلفية وتحميل الفيديوهات.",
+    "features": ["بلا إعلانات", "تشغيل في الخلفية", "تحميل فيديو"],
+    "image": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=youtube",
+    "slug": "youtube-premium"
+  },
+  {
+    "id": "adobe-creative",
+    "type": "subscription",
+    "name": "Adobe Creative",
+    "short": "Photoshop, Illustrator, Premiere وأكثر",
+    "price": "199 ر.س / شهر",
+    "price_number": 199,
+    "currency": "ر.س",
+    "long": "مجموعة Adobe الكاملة لتحرير الصور والفيديو والتصميم الاحترافي مع تحديثات مستمرة.",
+    "features": ["Photoshop", "Illustrator", "Premiere"],
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=adobe",
+    "slug": "adobe-creative"
+  },
+  {
+    "id": "microsoft-365",
+    "type": "subscription",
+    "name": "Microsoft 365",
+    "short": "Word, Excel, PowerPoint والتخزين السحابي",
+    "price": "70 ر.س / شهر",
+    "price_number": 70,
+    "currency": "ر.س",
+    "long": "حزمة Microsoft 365 لتحرير المستندات والتخزين السحابي والتعاون الجماعي.",
+    "features": ["Word", "Excel", "PowerPoint", "OneDrive"],
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=microsoft",
+    "slug": "microsoft-365"
+  },
+  {
+    "id": "canva-pro",
+    "type": "subscription",
+    "name": "Canva Pro",
+    "short": "تصاميم احترافية بسهولة",
+    "price": "30 ر.س / شهر",
+    "price_number": 30,
+    "currency": "ر.س",
+    "long": "Canva Pro مع قوالب احترافية وأدوات تصميم مبسطة لكل المستويات.",
+    "features": ["قوالب احترافية", "مكتبة عناصر", "أدوات تعاون"],
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=canva",
+    "slug": "canva-pro"
+  }
+]
