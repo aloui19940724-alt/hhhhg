@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجري - البوتات والاشتراكات</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-store"></i>
+                <span>متجري</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#bots">البوتات</a></li>
+                <li><a href="#subscriptions">الاشتراكات</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>أفضل البوتات والاشتراكات</h1>
+            <p>احصل على البوتات الذكية والاشتراكات الممتازة بأفضل الأسعار</p>
+            <button class="cta-btn" onclick="document.getElementById('bots').scrollIntoView()">ابدأ الآن</button>
+        </div>
+    </section>
+
+    <!-- Bots Section -->
+    <section id="bots" class="section">
+        <div class="container">
+            <h2 class="section-title">🤖 البوتات المتاحة</h2>
+            <p class="section-subtitle">بوتات ذكية لجميع المنصات</p>
+            
+            <div class="products-grid">
+                <!-- Telegram Bot -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>بوت تليجرام</h3>
+                    <p>بوت ذكي للتسويق والبيع التلقائي عبر تليجرام</p>
+                    <ul class="features">
+                        <li>✓ إدارة المبيعات التلقائية</li>
+                        <li>✓ إرسال رسائل مجدولة</li>
+                        <li>✓ إحصائيات شاملة</li>
+                        <li>✓ دعم الدفع</li>
+                    </ul>
+                    <div class="price">50 ر.س / شهر</div>
+                    <button class="btn-buy" onclick="buyProduct('بوت تليجرام')">اشتر الآن</button>
+                </div>
+
+                <!-- Discord Bot -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>بوت ديسكورد</h3>
+                    <p>بوت متقدم لإدارة السيرفرات والمجتمعات</p>
+                    <ul class="features">
+                        <li>✓ إدارة الأدوار والأعضاء</li>
+                        <li>✓ نظام المستويات</li>
+                        <li>✓ تصفية الرسائل</li>
+                        <li>✓ لوحة تحكم ويب</li>
+                    </ul>
+                    <div class="price">40 ر.س / شهر</div>
+                    <button class="btn-buy" onclick="buyProduct('بوت ديسكورد')">اشتر الآن</button>
+                </div>
+
+                <!-- X (Twitter) Bot -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fab fa-x-twitter"></i>
+                    </div>
+                    <h3>بوت إكس</h3>
+                    <p>بوت ذكي لنشر ومراقبة وسائل التواصل</p>
+                    <ul class="features">
+                        <li>✓ جدولة النشر التلقائي</li>
+                        <li>✓ تحليل الأداء</li>
+                        <li>✓ جمع المتابعين</li>
+                        <li>✓ إدارة التفاعلات</li>
+                    </ul>
+                    <div class="price">60 ر.س / شهر</div>
+                    <button class="btn-buy" onclick="buyProduct('بوت إكس')">اشتر الآن</button>
+                </div>
+
+                <!-- WhatsApp Bot -->
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>بوت واتس</h3>
+                    <p>بوت تفاعلي للتسويق والدعم عبر واتساب</p>
+                    <ul class="features">
+                        <li>✓ رسائل تلقائية</li>
+                        <li>✓ دعم العملاء 24/7</li>
+                        <li>✓ قوائم تفاعلية</li>
+                        <li>✓ إرسال الملفات</li>
+                    </ul>
+                    <div class="price">55 ر.س / شهر</div>
+                    <button class="btn-buy" onclick="buyProduct('بوت واتس')">اشتر الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscriptions Section -->
+    <section id="subscriptions" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">💳 اشتراكات المنصات</h2>
+            <p class="section-subtitle">اشتراكات رسمية بأسعار مخفضة</p>
+            
+            <div class="products-grid">
+                <!-- Netflix -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Netflix</h3>
+                    <p>أفلام وسلاسل تلفزيونية بدون إعلانات</p>
+                    <div class="original-price">49 ر.س</div>
+                    <div class="discount-price">35 ر.س / شهر</div>
+                    <small class="discount-label">توفير 28%</small>
+                    <button class="btn-buy" onclick="buyProduct('Netflix')">اشتر الآن</button>
+                </div>
+
+                <!-- Spotify -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Spotify</h3>
+                    <p>ملايين الأغاني بدون إعلانات</p>
+                    <div class="original-price">39 ر.س</div>
+                    <div class="discount-price">25 ر.س / شهر</div>
+                    <small class="discount-label">توفير 35%</small>
+                    <button class="btn-buy" onclick="buyProduct('Spotify')">اشتر الآن</button>
+                </div>
+
+                <!-- YouTube Premium -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube Premium</h3>
+                    <p>مشاهدة بدون إعلانات وتحميل الفيديوهات</p>
+                    <div class="original-price">45 ر.س</div>
+                    <div class="discount-price">32 ر.س / شهر</div>
+                    <small class="discount-label">توفير 28%</small>
+                    <button class="btn-buy" onclick="buyProduct('YouTube Premium')">اشتر الآن</button>
+                </div>
+
+                <!-- Adobe Creative Cloud -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Adobe Creative</h3>
+                    <p>Photoshop, Illustrator, Premiere وأكثر</p>
+                    <div class="original-price">299 ر.س</div>
+                    <div class="discount-price">199 ر.س / شهر</div>
+                    <small class="discount-label">توفير 33%</small>
+                    <button class="btn-buy" onclick="buyProduct('Adobe Creative Cloud')">اشتر الآن</button>
+                </div>
+
+                <!-- Microsoft 365 -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Microsoft 365</h3>
+                    <p>Word, Excel, PowerPoint والتخزين السحابي</p>
+                    <div class="original-price">99 ر.س</div>
+                    <div class="discount-price">70 ر.س / شهر</div>
+                    <small class="discount-label">توفير 29%</small>
+                    <button class="btn-buy" onclick="buyProduct('Microsoft 365')">اشتر الآن</button>
+                </div>
+
+                <!-- Canva Pro -->
+                <div class="subscription-card">
+                    <div class="platform-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Canva Pro</h3>
+                    <p>تصاميم احترافية بسهولة</p>
+                    <div class="original-price">49 ر.س</div>
+                    <div class="discount-price">30 ر.س / شهر</div>
+                    <small class="discount-label">توفير 38%</small>
+                    <button class="btn-buy" onclick="buyProduct('Canva Pro')">اشتر الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+966 50 123 4567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@marketplace.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>السعودية</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="اسمك" required>
+                    <input type="email" placeholder="بريدك الإلكتروني" required>
+                    <textarea placeholder="رسالتك" rows="5" required></textarea>
+                    <button type="submit" class="btn-buy">إرسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 متجري. جميع الحقوق محفوظة.</p>
+            <p>متجر موثوق لبيع البوتات والاشتراكات</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
