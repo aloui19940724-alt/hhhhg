@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>لوحة الإدارة - متجري</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="لوحة إدارة المنتجات (محلية)">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><i class="fas fa-store"></i><span>متجري</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container">
+      <h2 class="section-title">لوحة الإدارة</h2>
+      <p class="section-subtitle">إدارة المنتجات (محلياً، بدون خادم)</p>
+
+      <div id="admin-login">
+        <label>كلمة مرور المدير:</label>
+        <input id="admin-pass" type="password" placeholder="أدخل كلمة المرور">
+        <button id="login-btn" class="btn-buy">دخول</button>
+        <small>كلمة المرور الافتراضية: <strong>admin2026!</strong> (يمكن تغييرها لاحقاً)</small>
+      </div>
+
+      <div id="admin-area" style="display:none; margin-top:20px;">
+        <div style="display:flex; gap:10px; align-items:center; margin-bottom:15px;">
+          <button id="download-json" class="btn-buy">تحميل JSON للمنتجات</button>
+          <button id="copy-json" class="btn-buy" style="background:var(--accent);">نسخ JSON للحافظة</button>
+          <button id="reset-local" class="btn-buy" style="background:#333;">إعادة تحميل من products.json</button>
+        </div>
+
+        <div id="products-list"></div>
+
+        <h3 style="margin-top:30px;">إضافة منتج جديد</h3>
+        <div id="add-form" style="display:grid; gap:10px;">
+          <input id="new-name" placeholder="الاسم">
+          <input id="new-slug" placeholder="slug (مثل bot-telegram)">
+          <input id="new-price" placeholder="السعر (رقم)">
+          <input id="new-image" placeholder="رابط الصورة">
+          <textarea id="new-long" placeholder="وصف طويل"></textarea>
+          <button id="add-product" class="btn-buy">إضافة المنتج</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 متجري. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
