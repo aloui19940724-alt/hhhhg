@@ -19,6 +19,7 @@
                 <li><a href="#bots">البوتات</a></li>
                 <li><a href="#subscriptions">الاشتراكات</a></li>
                 <li><a href="#contact">تواصل معنا</a></li>
+                <li><a href="admin.html">لوحة الإدارة</a></li>
             </ul>
         </div>
     </nav>
@@ -36,7 +37,7 @@
     <section id="bots" class="section">
         <div class="container">
             <h2 class="section-title">🤖 البوتات المتاحة</h2>
-            <p class="section-subtitle">بوتات ذكية لجميع المنصات</p>
+            <p class="section-subtitle">بوتات ذكية لجميع الم��صات</p>
             
             <div class="products-grid">
                 <!-- Telegram Bot -->
@@ -53,7 +54,10 @@
                         <li>✓ دعم الدفع</li>
                     </ul>
                     <div class="price">50 ر.س / شهر</div>
-                    <button class="btn-buy" onclick="buyProduct('بوت تليجرام')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=bot-telegram">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('بوت تليجرام')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- Discord Bot -->
@@ -70,7 +74,10 @@
                         <li>✓ لوحة تحكم ويب</li>
                     </ul>
                     <div class="price">40 ر.س / شهر</div>
-                    <button class="btn-buy" onclick="buyProduct('بوت ديسكورد')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=bot-discord">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('بوت ديسكورد')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- X (Twitter) Bot -->
@@ -87,7 +94,10 @@
                         <li>✓ إدارة التفاعلات</li>
                     </ul>
                     <div class="price">60 ر.س / شهر</div>
-                    <button class="btn-buy" onclick="buyProduct('بوت إكس')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=bot-x">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('بوت إكس')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- WhatsApp Bot -->
@@ -104,7 +114,10 @@
                         <li>✓ إرسال الملفات</li>
                     </ul>
                     <div class="price">55 ر.س / شهر</div>
-                    <button class="btn-buy" onclick="buyProduct('بوت واتس')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=bot-whatsapp">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('بوت واتس')">اشتر الآن</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,7 +140,10 @@
                     <div class="original-price">49 ر.س</div>
                     <div class="discount-price">35 ر.س / شهر</div>
                     <small class="discount-label">توفير 28%</small>
-                    <button class="btn-buy" onclick="buyProduct('Netflix')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=netflix">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('Netflix')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- Spotify -->
@@ -140,7 +156,10 @@
                     <div class="original-price">39 ر.س</div>
                     <div class="discount-price">25 ر.س / شهر</div>
                     <small class="discount-label">توفير 35%</small>
-                    <button class="btn-buy" onclick="buyProduct('Spotify')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=spotify">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('Spotify')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- YouTube Premium -->
@@ -153,7 +172,10 @@
                     <div class="original-price">45 ر.س</div>
                     <div class="discount-price">32 ر.س / شهر</div>
                     <small class="discount-label">توفير 28%</small>
-                    <button class="btn-buy" onclick="buyProduct('YouTube Premium')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=youtube-premium">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('YouTube Premium')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- Adobe Creative Cloud -->
@@ -166,7 +188,10 @@
                     <div class="original-price">299 ر.س</div>
                     <div class="discount-price">199 ر.س / شهر</div>
                     <small class="discount-label">توفير 33%</small>
-                    <button class="btn-buy" onclick="buyProduct('Adobe Creative Cloud')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=adobe-creative">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('Adobe Creative Cloud')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- Microsoft 365 -->
@@ -179,7 +204,10 @@
                     <div class="original-price">99 ر.س</div>
                     <div class="discount-price">70 ر.س / شهر</div>
                     <small class="discount-label">توفير 29%</small>
-                    <button class="btn-buy" onclick="buyProduct('Microsoft 365')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=microsoft-365">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('Microsoft 365')">اشتر الآن</button>
+                    </div>
                 </div>
 
                 <!-- Canva Pro -->
@@ -192,7 +220,10 @@
                     <div class="original-price">49 ر.س</div>
                     <div class="discount-price">30 ر.س / شهر</div>
                     <small class="discount-label">توفير 38%</small>
-                    <button class="btn-buy" onclick="buyProduct('Canva Pro')">اشتر الآن</button>
+                    <div class="card-actions">
+                        <a class="btn-view" href="product.html?slug=canva-pro">عرض المنتج</a>
+                        <button class="btn-buy" onclick="buyProduct('Canva Pro')">اشتر الآن</button>
+                    </div>
                 </div>
             </div>
         </div>
